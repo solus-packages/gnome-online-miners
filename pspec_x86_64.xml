@@ -1,0 +1,47 @@
+<PISI>
+    <Source>
+        <Name>gnome-online-miners</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>desktop.gnome.core</PartOf>
+        <Summary xml:lang="en">Crawls through your online content</Summary>
+        <Description xml:lang="en">Crawls through your online content
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>gnome-online-miners</Name>
+        <Summary xml:lang="en">Crawls through your online content</Summary>
+        <Description xml:lang="en">Crawls through your online content
+</Description>
+        <PartOf>desktop.gnome.core</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/gnome-online-miners/gom-facebook-miner</Path>
+            <Path fileType="library">/usr/lib64/gnome-online-miners/gom-flickr-miner</Path>
+            <Path fileType="library">/usr/lib64/gnome-online-miners/gom-gdata-miner</Path>
+            <Path fileType="library">/usr/lib64/gnome-online-miners/gom-media-server-miner</Path>
+            <Path fileType="library">/usr/lib64/gnome-online-miners/gom-owncloud-miner</Path>
+            <Path fileType="library">/usr/lib64/gnome-online-miners/gom-zpj-miner</Path>
+            <Path fileType="library">/usr/lib64/gnome-online-miners/libgom-1.0.so</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/org.gnome.OnlineMiners.Facebook.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/org.gnome.OnlineMiners.Flickr.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/org.gnome.OnlineMiners.GData.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/org.gnome.OnlineMiners.MediaServer.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/org.gnome.OnlineMiners.Owncloud.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/org.gnome.OnlineMiners.Zpj.service</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-09-18</Date>
+            <Version>3.20.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
