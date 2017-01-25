@@ -1,8 +1,8 @@
 name       : gnome-online-miners
-version    : 3.20.1
-release    : 1
+version    : 3.22.0
+release    : 2
 source     :
-    - https://download.gnome.org/sources/gnome-online-miners/3.20/gnome-online-miners-3.20.1.tar.xz : fd67b9abad6233689a921d84dbe583a8b89d5ade7f1b5d2f348493888baa3429
+    - http://ftp.gnome.org/pub/gnome/sources/gnome-online-miners/3.22/gnome-online-miners-3.22.0.tar.xz : bf51666866527b236d980fa3a0d036581a85987c59d604566ccb3ad685dd8bb8
 license    : GPL-2.0
 component  : desktop.gnome.core
 summary    : Crawls through your online content
