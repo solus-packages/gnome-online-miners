@@ -1,6 +1,6 @@
 name       : gnome-online-miners
 version    : 3.22.0
-release    : 2
+release    : 3
 source     :
     - http://ftp.gnome.org/pub/gnome/sources/gnome-online-miners/3.22/gnome-online-miners-3.22.0.tar.xz : bf51666866527b236d980fa3a0d036581a85987c59d604566ccb3ad685dd8bb8
 license    : GPL-2.0
