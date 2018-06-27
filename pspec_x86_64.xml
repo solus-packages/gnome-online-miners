@@ -32,12 +32,16 @@
             <Path fileType="data">/usr/share/dbus-1/services/org.gnome.OnlineMiners.MediaServer.service</Path>
             <Path fileType="data">/usr/share/dbus-1/services/org.gnome.OnlineMiners.Owncloud.service</Path>
             <Path fileType="data">/usr/share/dbus-1/services/org.gnome.OnlineMiners.Zpj.service</Path>
-            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="doc">/usr/share/doc/gnome-online-miners/AUTHORS</Path>
+            <Path fileType="doc">/usr/share/doc/gnome-online-miners/COPYING</Path>
+            <Path fileType="doc">/usr/share/doc/gnome-online-miners/ChangeLog</Path>
+            <Path fileType="doc">/usr/share/doc/gnome-online-miners/NEWS</Path>
+            <Path fileType="doc">/usr/share/doc/gnome-online-miners/README</Path>
         </Files>
     </Package>
     <History>
-        <Update release="5">
-            <Date>2018-04-22</Date>
+        <Update release="6">
+            <Date>2018-06-27</Date>
             <Version>3.26.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
