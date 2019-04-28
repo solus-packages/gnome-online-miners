@@ -1,6 +1,6 @@
 name       : gnome-online-miners
 version    : 3.30.0
-release    : 8
+release    : 9
 source     :
     - https://download.gnome.org/sources/gnome-online-miners/3.30/gnome-online-miners-3.30.0.tar.xz : 2c29a9922b1d32aeb0e615db6717c8e060417d3b6568ed617c9817fb39af4a5e
 license    : GPL-2.0-or-later
@@ -15,7 +15,7 @@ builddeps  :
     - pkgconfig(libgfbgraph-0.2)
     - pkgconfig(tracker-sparql-2.0)
     - pkgconfig(zapojit-0.0)
-rundeps    : |
+rundeps    :
     - tracker-miners
 setup      : |
     %configure --disable-static
