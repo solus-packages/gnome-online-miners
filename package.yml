@@ -1,6 +1,6 @@
 name       : gnome-online-miners
 version    : 3.34.0
-release    : 10
+release    : 11
 source     :
     - https://download.gnome.org/sources/gnome-online-miners/3.34/gnome-online-miners-3.34.0.tar.xz : 845c2260fb12f14315c800d04d60f37e076c7c7b4222587ae75f108562fa52d8
 license    : GPL-2.0-or-later
